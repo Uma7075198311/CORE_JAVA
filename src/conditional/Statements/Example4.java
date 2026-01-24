@@ -16,7 +16,8 @@ else {
 }
 	public static void main(String[] args) {
 		Example4 obj=new Example4();
-		System.out.println("Greater number (10,25):"+obj.findGreater(10,25));
+		System.out.println(obj.findGreater(20,30));
+		System.out.println("Greater number(20,30):"+obj.findGreater(20,30));
 
 	}
 

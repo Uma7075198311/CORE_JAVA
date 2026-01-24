@@ -1,16 +1,23 @@
 package conditional.Statements;
 
 public class example1 {
-
-	public static void main(String[] args) {
-		int n=11;
-		if(n%2==0) {
-			System.out.println("the given number even");
+	public boolean isEven(int num) {
+		if(num%2==0) {
+			return true;
 		}
 		else {
-			System.out.println("the given number odd");
+			return false;
 		}
-
 	}
+
+	public static void main(String[] args) {
+		example1 obj=new example1();
+		if(	obj.isEven(10)) {
+			System.out.println("Is 10 even?"+obj.isEven(10));
+		}else {
+			System.out.println("Odd Number");
+		}
+		
+		}
 
 }

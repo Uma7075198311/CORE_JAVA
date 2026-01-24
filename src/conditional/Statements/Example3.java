@@ -11,7 +11,12 @@ public boolean canVote(int age) {
 }
 public static void main(String[] args) {
  Example3 obj=new Example3();
-  System.out.println("Can vote (Age 20)?"+obj.canVote(20));
+ if(obj.canVote(20)) {
+		System.out.println("Can vote(Age 20)?"+obj.canVote(20));
+	}
+	else {
+		System.out.println("Can vote(Age 20)?"+obj.canVote(20));
+	}
 	}
 
 }
