@@ -1,0 +1,25 @@
+package variables;
+
+public class Task3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 byte b = 10;
+	        short s = 200;
+	        int i = 5000;
+	        long l = 100000L;
+	        float f = 12.5f;
+	        double d = 99.99;
+	        char c = 'A';
+	        boolean flag = true;
+	        System.out.println("byte: " + b);
+	        System.out.println("short: " + s);
+	        System.out.println("int: " + i);
+	        System.out.println("long: " + l);
+	        System.out.println("float: " + f);
+	        System.out.println("double: " + d);
+	        System.out.println("char: " + c);
+	        System.out.println("boolean: " + flag);
+	}
+
+}
