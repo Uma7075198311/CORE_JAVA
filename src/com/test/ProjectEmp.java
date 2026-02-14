@@ -104,7 +104,7 @@ public void viewAveragePerformance() {
 	              p.viewAveragePerformance();
 	              break;
 	          case 5:
-	              System.out.println("👋 Exiting program. Goodbye!");
+	              System.out.println(" Exit");
 	              sc.close();
 	              return;
 
